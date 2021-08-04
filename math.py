@@ -12,5 +12,5 @@ class Operation:
         return result
 
     def division(num1, num2):
-        total = num1 / num2
+        result = num1 / num2
         return result
