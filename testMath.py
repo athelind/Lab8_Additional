@@ -1,11 +1,11 @@
 import unittest
-from math import Operation
+from mathA import Operation
 
 class testMath(unittest.TestCase):
 
     def test_add(self):
         result = Operation.add(1, 2)
-        self.assertEqual(result, 4)
+        self.assertEqual(result, 3)
 
     def test_minus(self):
         pass
